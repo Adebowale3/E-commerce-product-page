@@ -65,7 +65,9 @@ body{
 }
 .thumbnails img{
     width: 80px;
+    border: 2px solid orange;
     border-radius: 10px;
+    cursor: pointer;
     
 }
 .item-details{
