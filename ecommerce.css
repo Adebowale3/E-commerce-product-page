@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
 }
 .container{
-    margin: 0 140px ;
+    margin: 0 130px ;
 }
 .header{
     display: flex;
