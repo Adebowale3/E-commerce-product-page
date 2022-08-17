@@ -147,7 +147,7 @@ body {
   font-size: 16px;
 }
 
-.btn-qty .btn .btn2 {
+.btn-qty .btn, .btn2 {
   border: none;
   color: orange;
   border-radius: 4px;
