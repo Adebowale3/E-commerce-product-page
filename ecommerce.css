@@ -95,7 +95,7 @@ body {
 }
 .thumbnails img:hover {
   opacity: 0.3;
-  /* background: white; */
+  
 }
 .item-details {
   width: 50%;
@@ -115,7 +115,6 @@ body {
   font-size: 18px;
   line-height: 1.2;
   padding-right: 100px;
-  /* background-color: rebeccapurple; */
 }
 .price {
   display: flex;
@@ -148,8 +147,7 @@ body {
   font-size: 16px;
 }
 
-.btn-qty .btn,
-.btn2 {
+.btn-qty .btn .btn2 {
   border: none;
   color: orange;
   border-radius: 4px;
@@ -172,7 +170,6 @@ body {
   margin-left: 12px;
   font-size: 20px;
   box-shadow: 10px 10px  10px rgb(211, 151, 41);
-
 }
 .button .btn-qty {
   display: flex;
