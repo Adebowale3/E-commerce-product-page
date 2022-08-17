@@ -5,71 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="ecommerce.css"/>
+    <link rel="stylesheet" href="ecommerce.css" />
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <header class="header">
         <div class="header-nav">
-          <img class="logo" src="logo.svg" alt="sneaker-logo"/>
-
-          <ul>
-            <li>Collection</li>
-            <li>Men</li>
-            <li>Women</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
+          <img class="icon-menu" src="icon-menu.svg" alt="" />
+          <img class="logo" src="logo.svg" alt="sneaker-logo" />
+          <nav class="nav-items">
+            <ul>
+              <li>Collection</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
         </div>
         <div class="basket">
-          <img class="cart" src="icon-cart.svg" alt="cart" />
+          <img class="cart" src="icon-cart-black.svg" alt="cart" />
           <img class="avatar" src="image-avatar.png" alt="" />
         </div>
-      </div>
+      </header>
 
-      <div class="main">
-        <div>
-          <img class="main-image" src="image-product-1.jpg" alt="" />
+      <main class="main">
+        <section>
+          <div class="main-image-container">
+            <img class="icon-previous" src="icon-previous.svg" alt="" />
+            <img class="main-image" src="image-product-1.jpg" alt="" />
+            <img class="icon-next" src="icon-next.svg" alt="" />
+          </div>
           <div class="thumbnails">
             <img src="image-product-1-thumbnail.jpg" alt="" />
             <img src="image-product-2-thumbnail.jpg" alt="" />
             <img src="image-product-3-thumbnail.jpg" alt="" />
             <img src="image-product-4-thumbnail.jpg" alt="" />
           </div>
-        </div>
+        </section>
 
-        <div class="item-details">
+        <section class="item-details">
           <span class="company-name">SNEAKER COMPANY</span>
           <h1>Fall Limited Edition <br />Sneakers</h1>
-          <p>
-            These low-profile sneakers are your perfect casual wear <br />
-            companion. Featuring a durable rubber outer sole, they'll <br />
-            withstand everything the weather can offer.
+          <p class="product-details">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they'll withstand everything
+            the weather can offer.
           </p>
           <div class="price">
-            <p>$125.00 <br><span class="oldprice">$250.00</span>   
-            </p>
-            <span class="discount">50%</span><br>
-            <!-- <div class="oldprice">
-                $250.00
-              </div> -->
+            <div class="price-discount" >
+              <p>$125.00</p>
+              <span class="discount">50%</span>
+            </div>
+            <div class="oldprice">
+              <span>$250.00</span>
+            </div>
           </div>
-               <div class="button">
+          <div class="button">
             <div class="btn-qty">
-              <button class="btn">-</button>
-              <span>0</span>
-              <button class="btn">+</button>
+              <span class="btn">-</span>
+              <span class="qty">0</span>
+              <span class="btn2">+</span>
             </div>
             <button class="btn-cart">
-              <span >
-                <img class="cart2" src="icon-cart.svg" alt=""/>
+              <span>
+                <img class="cart2" src="icon-cart.svg" alt="" />
               </span>
-              <span>Add to cart</span>
+              <span class="add">Add to cart</span>
             </button>
-            
           </div>
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   </body>
 </html>
